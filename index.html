@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Colletta Restaurant UI Replica</title>
+
+    <!-- bootstrap cdn link. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Css Link. -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- For Media Query. -->
+    <link rel="stylesheet" href="responsive.css">
+
+  </head>
+  <body>
+    
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="main-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./Images/Colletta_Logo_Main.png" alt="Logo" width="220px" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOURS&LOCATION</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                MENUS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">ATLANTA</a></li>
+                <li><a class="dropdown-item" href="#">CARY</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">PRIVATE DINING AND EVENTS</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-outline-success" type="submit">RESERVATIONS</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- slider -->
+
+   
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade bcenter">
+        <div class="carousel-inner">
+          <div class="carousel-item active bg-img11 saleeeem">
+            <!-- <img src="./Images/slide 1" class="d-block w-100 img-fluid" alt="..."> -->
+          </div>
+          <div class="carousel-item bg-img22 saleeeem">
+            <!-- <img src="./Images/slide 2" class="d-block w-100 img-fluid" alt="..."> -->
+          </div>
+          <div class="carousel-item bg-img33 saleeeem">
+            <!-- <img src="./Images/slide 3" class="d-block w-100 img-fluid" alt="..."> -->
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: rgb(0, 0, 0);"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: black;"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- container fluid -->
+       <div class="container-fluid">
+        
+        <!-- black section -->
+        <div class="d-flex justify-content-center row align-items-center text-center mt-4" id="section-black">
+          <div class="col-12">
+            <p>
+              Colletta, which means “collection” in Italian, is just that – a compilation of lively dining experiences. Colletta celebrates the best <br> of Italian American dishes with welcoming hospitality and service. Seasonal changes guide the menu of scratch-made pasta <br> made in-house daily, cheeses, antipastis, pizzas and more. Staying true to Italian dining traditions, Colletta also offers a “For the <br> Table” dining option curated for a family-style experience, offered nightly alongside the full à la carte menu.
+            </p>
+            <form class="d-flex justify-content-center" role="search">
+              <button class="btn btn-outline-success" type="submit" id="sec3-butt">LEARN MORE</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- sectoin 3-1 -->
+    
+         <div class="row justify-content-center align-items-center mb-4">
+          <div class="col-md-5 col-11" id="s3imgg">
+
+          </div>
+          <div class="col-md-5 col-11"  id="s33">
+            <h1 id="s31st">Host A Party</h1>
+            <p id="s32nd">We recommend celebrating all <br> moments, big or small, or turning a <br> business dinner into a festive feast. At <br> Colletta, you don't need an excuse to <br> gather.</p>
+            <button type="button" class="btn doubtn" disabled>ATLANTA</button> <br>
+            <button type="button" class="btn doubtn mt-3 mb-4" disabled>CARY</button>
+          </div>
+         </div>
+        
+          <!-- sectoin 3-2 -->
+    
+          <div class="row justify-content-center align-items-center mb-4">
+           
+            <div class="col-md-5 col-11"  id="s33">
+              <h1 id="s31st">Menus</h1>
+              <p id="s32nd">Come see the items featured from our <br> scratch made kitchen.</p>
+              <button type="button" class="btn doubtn" disabled>ATLANTA</button> <br>
+              <button type="button" class="btn doubtn mt-3 mb-4" disabled>CARY</button>
+            </div>
+
+            <div class="col-md-5 col-11 d-none d-md-block" id="s3imggg">
+  
+            </div>
+           </div>
+
+           <!-- section-4 -->
+
+         <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-11 text-center secmain4"><h1>Featured Press</h1></div>
+          <div class="col-md-3  text-center mt-5">
+            <h4 class="head11">
+              CRAZY MAGAZINE
+            </h4>
+            <p>2023 Maggy Awards: Best New <br> Restaurant</p>
+          </div>
+          <div class="col-md-3 text-center mt-5">
+            <h4 class="head11">
+              THRILLST
+            </h4>
+            <p>The Best Italian Restaurants in <br> Atlanta</p>
+          </div>
+          <div class="col-md-3 text-center mt-5">
+            <h4 class="head11">
+              JEZEBEL
+            </h4>
+            <p>100 Hottest <br> Restaurants</p>
+          </div>
+         </div>
+
+\
+        <!-- container fluid end-->
+       </div>
+
+        <!-- last-image -->
+        <div class="container-fluid">
+          <div class="row justify-content-center align-items-center" id="last-image">
+            <div class="col-10>
+      
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+    <!-- JavaScript Link. -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
